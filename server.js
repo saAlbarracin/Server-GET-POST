@@ -15,6 +15,6 @@ app.post("/login", function (req, res) {
   res.send(`Hola ${req.body.user} ${req.body.nickname} ${req.body.surname}`);
 });
 
-app.listen(3000, function () {
+app.listen(PUERTO, function () {
   console.log("Servidor listo, iniciando en puerto 3000...");
 });
