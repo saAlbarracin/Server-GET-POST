@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  form {
+    background-color: #2941ab;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    border: 5px solid #1ED760;
+  }
+  
+  form > input {
+    margin: 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-family: inherit;
+  }
+  
+  #btn-submit {
+    border: none;
+    background-color: #1ED760;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #btn-submit:hover {
+    background-color: rgb(18, 246, 246);
+  }
+  
+  #contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titulo{
+      text-align: center;
+      font-family: fantasy;
+      color: #1ED760;
+  }
